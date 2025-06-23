@@ -1,0 +1,35 @@
+[project]
+name = "rag-hanzon"
+version = "0.1.0"
+description = "ローカル環境に簡単なRAGを作ってみよう"
+requires-python = ">=3.13"
+
+dependencies = [
+    "llama-index>=0.12.43",
+    "llama-index-embeddings-ollama>=0.6.0",
+    "llama-index-llms-ollama>=0.6.2",
+]
+
+[tool.uv]
+dev-dependencies = ["ruff>=0.9.1"]
+
+[tool.ruff]
+target-version = "py313"
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "UP", # pyupgrade
+]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
