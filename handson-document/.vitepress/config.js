@@ -19,7 +19,7 @@ export default defineConfig({
           { text: 'はじめに', link: '/' },
           { text: '事前準備', link: '/guide/preparation' },
           { text: '環境構築', link: '/guide/setup' },
-          // { text: 'Step1 チャット機能', link: '/handson/chat' },
+          { text: 'Step1 チャット機能', link: '/handson/chat' },
           // { text: 'Step2 ドキュメントから答えるRAG', link: '/guide/step2' },
           // { text: 'Step3 Excelファイルに対応してみよう', link: '/guide/step3' }
         ]

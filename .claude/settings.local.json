@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv python install:*)",
+      "Bash(uv venv:*)",
+      "Bash(mkdir:*)",
+      "Bash(uv sync:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(uv add:*)"
+    ],
+    "deny": []
+  }
+}
